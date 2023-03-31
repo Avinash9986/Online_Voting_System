@@ -1,0 +1,126 @@
+body{
+    box-sizing: border-box ;
+    background-image: url("https://d13qu023z75971.cloudfront.net/2021/11/Electronic-Voting-Blog---Image----1-.png") ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    font-family: verdana ;
+    font-size: 20px ;
+    margin: 0 ;
+    width: 100% ;
+}
+nav{
+    background-color: orange ;
+    color: white ;
+    padding: 20px ;
+    font-size: 1.2em ;
+    display: flex ;
+    justify-content: flex-end ;
+}
+.navAnchor{
+    text-decoration: none ;
+    color: white ;
+    padding: 0 10px ;
+}
+
+.navAnchor:hover{
+    color: black ;
+    font-size: 30px ;
+}
+
+form{
+    background-color: #FFF4E0 ;
+    opacity:1 ;
+    width: 30rem ;
+    margin-left: 10% ;
+    margin-top: 3% ;
+    border-radius: 10px ;
+    padding-top: 10px ;
+    padding-bottom: 15px ;
+    padding-left: 25px ;
+    font-size: 1.5rem ;
+    margin-bottom: 30px ; 
+}
+
+form > button{
+    color: black ;
+    font-size: 1.2rem ;
+    padding: 8px 0 ;
+    width: 200px ;
+    padding: 5px ; 
+}
+
+form > input{
+    margin: 15px 0 ;
+    width: 200px ;
+    font-size: 1.2rem ;
+    padding: 5px ;
+    margin-right: 40% ;
+    background-color :#009EFF;
+    border-radius: 10px ;
+    
+}
+form>textArea{
+    background-color: #009EFF ;
+    border-radius: 10px ;
+    margin: 15px 0 ;
+    font-size: 1.2rem ;
+    font-weight: 0.4rem ;
+    
+    
+}
+form > a{
+ text-decoration: none ;
+ margin-left: 20% ;
+ color: black ;
+}
+form > a:hover{
+    text-decoration: underline ;
+}
+
+form>button{
+    cursor: pointer ;
+    margin-top: 20px ;
+    margin-right: 20% ;
+    background-color: #009EFF ;
+    border-radius: 10px ;
+    width: 180px ;
+    
+    
+}
+select,option{
+    background-color: #009EFF ;
+    border-radius: 10px ;
+    margin: 15px 0 ;
+    font-size: 1.4rem ;
+    font-weight: 0.4rem ;
+    padding: 5px ;
+    width: 100px ;
+    text-align: center ;
+}
+#aboutus{
+    background-color: #FFF4E0 ;
+    opacity: 0.8 ;
+    width: 40rem ;
+    margin-left: 10% ;
+    margin-top: 10% ;
+    border-radius: 10px ;
+    padding-top: 10px ;
+    padding-bottom: 15px ;
+    padding-left: 25px ; 
+}
+ 
+table{
+    background-color: #FFF4E0 ;
+    width: 100% ;
+    font-size: 1.4rem ;
+    text-align: center ;
+    
+}
+th,td{
+    padding:30px ;
+    
+}
+td>image{
+    width:200px ;
+    height: 200px ;
+}
